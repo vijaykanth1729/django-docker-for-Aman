@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1 style="color:red">Django Running on Container Environment </h1>
+<h3>Products from DB</h3>
+{% for product in products %}
+  Product Name: {{ product.name }}
+  Product price: {{ product.price }}
+{% endfor %}
+</body>
+</html>
